@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ASNAN KHAN</title>
+	<style>
+		#Firstsec{
+			background-color: rgb(175, 146, 14);
+			border: rgb(112, 37, 112);
+			border-radius: 19px;
+			padding: 10px;
+		}
+		#secondsec{
+			background-color: rgb(255, 77, 77);
+			border: rgb(112, 37, 112);
+			border-radius: 19px;
+			padding: 10px;
+		}
+		#Thirdsec{
+			background-color: #2fc296;
+			border-radius: 20PX;
+			padding: 10px;
+			
+			
+		}
+		.Form{
+			background-color: rgb(44, 182, 182);
+			border-radius: 20px;
+			padding: 10px;
+		}
 	
+	</style>
 </head>
 
 <body>
-	<h1>Welcome To My First Website</h1>
+	<div id="Firstsec">
+	<h1>SIMPLE WEBSITE BY USING JUST HTML</h1>
 	<p>My name is Muhammad Asnan Khan.This is my first website.</p>
-	<img src="20221202_170713.jpg" alt="Evening" width= "250" height="500">
-	<img src="IMG_20221201_081910.jpg" alt="Evening "width= "250" height="500">
-	<img src="IMG-20221216-WA0073-1.jpg" alt="Evening " width= "250" height="500">
+
 	<img src="IMG-20221216-WA0074.jpg" alt="Evening " width= "250" height="500">
-	<h2>Go to some common links</h2>
-	<a href="https://google.com" target="_blank">Go to google</a><br>
-	<a href="https://facebook.com" target="_blank">Go to facebook</a><br>
-	<a href="https://youtube.com" target="_blank">Go to youtube</a><br>
-	<a href="https://twitter.com" target="_blank">Go to twitter</a><br>
-	<a href="https://instagram.com" target="_blank">Go to instagram</a><br><br>
-	<h1>Fill The Form</h1>
-	<form>
+	</div>
+	<div id="secondsec">
+	<h2>SOME USEFULL PLATFORMS</h2>
+	<h3>GOOGLE</h3>
+	<p> <strong>Google was officially launched in 1998 by Larry Page and Sergey Brin to market Google Search, which has become the most used web-based search engine.</strong> Larry Page and Sergey Brin, students at Stanford University in California, developed a search algorithm at first known as "BackRub" in 1996, with the help of Scott Hassan and Alan Steremberg. The search engine soon proved successful and the expanding company moved several times, finally settling at Mountain View in <strong>2003</strong>. This marked a phase of rapid growth, with the company making its initial public offering in 2004 and quickly becoming one of the world's largest media companies. The company launched Google News in 2002, Gmail in 2004, Google Maps in 2005, Google Chrome in 2008, and the social network known as Google+ in 2011 (which was shut down in April 2019), in addition to many other products. In 2015, Google became the main subsidiary of the holding company Alphabet Inc.</p>
+	<a href="https://google.com">Go to the google</a>
+	</div>
+	<div id="Thirdsec">
+	<h3>YOUTUBE</h3>
+	<P>YouTube is a global online video sharing and social media platform headquartered in San Bruno, California. It was launched on <strong>14, 2005</strong>, by <em>Steve Chen</em>, Chad Hurley, and Jawed Karim. It is owned by Google, and is the second most visited website, after Google Search. YouTube has more than 2.5 billion monthly users[7] who collectively watch more than one billion hours of videos each day.[8] As of May 2019, videos were being uploaded at a rate of more than 500 hours of content per minute.</P>
+	<a href="https://youtube.com">Go to youtube</a>
+	<p></p>
+	</div>
+	
+	<form class="Form">
+		<h1>Fill The Form</h1>
 		<div>
 			Name:<input type="text" name="Myname">
 		</div>
@@ -46,9 +80,22 @@
 			Date:<input type="date" name="Myname">
 		</div>
 		<br>
+
+			<div>
+				<label for="Car"></label>
+				car: <select name="Mycar" id="Car">
+					<option value="civic">civic</option>
+					<option value="Fortuner">Fortuner</option>
+				</select>
+			</div>
+		<br>
 		<div>
 			<input type="submit" name="Myname">
-		</div>
+	</div>
+		<br>
+	<div>
+			<input type="reset" name="Reset now">
+	</div>
 	</form>
 	
 </body>
